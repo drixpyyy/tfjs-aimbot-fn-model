@@ -1,0 +1,24 @@
+description: Ultralytics YOLO11n model trained on /content/bob121212-1/data.yaml
+author: Ultralytics
+date: '2025-06-24T17:03:05.113863'
+version: 8.3.159
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Fortnite Model - v9 2024-03-30 12-54pm
+  1: Players
+  2: Tutorial 1 - v1 2024-10-29 7-37pm
+  3: holy - v1 2024-10-27 4-09am
+  4: players
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
